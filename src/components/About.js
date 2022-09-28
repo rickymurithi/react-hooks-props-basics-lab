@@ -1,4 +1,5 @@
 import React from "react";
+import user from "../data/user";
 import  Links  from "./Links"
 
 
@@ -10,7 +11,7 @@ function About({bio, links}) {
       {bio ? <p>{bio}</p> : null};
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
       {/* add your <Links /> component here */}
-      <Links bio='I made this!'
+      <Links
       github = 'https://github.com/liza'
       linkedin = 'https://www.linkedin.com/in/liza/' />
     </div>
